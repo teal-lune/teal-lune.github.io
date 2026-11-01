@@ -16,17 +16,23 @@ h1 {
 header {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 10px;
 }
 
 nav a {
     color: #583e3b;
     display: inline-block;
     padding: 0.7rem 2rem;
-    margin-top: 15px;
     text-decoration: none;
     border-radius: 25px;
     font-size: 14px;
+}
+
+nav {
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    height: 64px;
 }
 
 nav a:hover {
@@ -53,18 +59,17 @@ nav a.active {
 }
 
 main {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-  margin: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 30px;
 }
 
 #about-main {
     display: block;
     margin: 30px auto;
 }
-
 
 .card {
     background-color: #fffdf9;
@@ -83,7 +88,7 @@ main {
 
 #profile {
     border-radius: 50%;
-    width: 300px;
+    width: 270px;
     border: 5px solid #583e3b;
 }
 
@@ -102,11 +107,11 @@ figcaption {
 }
 
 table {
-  border-collapse: collapse;
-  margin-bottom: 2rem; /* Add some space below the table */
-  width: 75%;
-  border: 1px solid #e8e2da;
-  border-radius: 15px;
+    border-collapse: collapse;
+    margin-bottom: 2rem; /* Add some space below the table */
+    width: 75%;
+    border: 1px solid #e8e2da;
+    border-radius: 15px;
 }
 
 #table-header {
@@ -114,9 +119,9 @@ table {
 }
 
 th, td {
-  border: 1px solid #e8e2da; /* Add a border to the table, header cells, and data cells */
-  padding: 0.5rem; /* Add padding to cells for better readability */
-  text-align: left; /* Align text to the left */
+    border: 1px solid #e8e2da;
+    padding: 0.5rem;
+    text-align: left;
 }
 
 .interest {
@@ -128,18 +133,18 @@ li::marker {
 }
 
 iframe {
-  display: block;
-  width: min(100%, 60rem);
-  min-height: 40rem;
-  margin: 0 auto;
-  border: 1px solid #dbe4f0;
+    display: block;
+    width: min(100%, 60rem);
+    min-height: 40rem;
+    margin: 0 auto;
+    border: 1px solid #dbe4f0;
 }
 
 footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 1rem;
     color: #828c51;
     font-size: 13px;
     padding: 15px;
