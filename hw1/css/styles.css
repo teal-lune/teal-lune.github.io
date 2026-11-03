@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: #f1efe2;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter Tight", sans-serif;
+}
+
+header {
+    flex-shrink: 0;
+    border-bottom: 4px solid #1d1d1d;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav {
+    margin: 20px 0 5px 0;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-size: 84px;
+    font-weight: 500;
+}
+
+h2 {
+    background-color: #d3fb43;
+    display: inline-block;
+}
+
+.stand-out {
+    font-family: "Big Shoulders Inline", sans-serif;
+    background-color: #d3fb43;
+}
+
+hr {
+    width: 40%;
+    border: none;
+    border-top: 2px solid #6b6b6b;
+}
+
+#wheel, #shield, #vig, #pol {
+    width: 400px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+#logo{
+    width: 300px
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px;
+}
+
+a:hover, .active {
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #F6F3EE;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown {
+    display: inline;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.flexible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 0 0 50px 0;
+}
+
+.flexible-three {
+    flex-direction: row;
+}
+
+.flexible div {
+    flex: 1;
+    padding: 40px;
+}
+
+textarea {
+    background-color: #f1efe2;
+    border-radius: 5px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+#answer {
+    display: none;
+}
+
+#answer-label {
+    cursor: pointer;
+}
+
+#answer-label:hover + #answer {
+    display: inline;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: grey;
+    font-size: 13px;
+    padding: 15px;
+    flex-shrink: 0;
+    border-top: 4px solid #1d1d1d;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Talk Cryptography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><rect x="4" y="4" width="8" height="8" fill="#000"/></svg>
+        <a href="index.html">Home</a>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><rect x="4" y="4" width="8" height="8" fill="#000"/></svg>
+        <div class="dropdown">
+            <a href="#" class="active">Ciphers</a>
+            <div class="dropdown-content">
+                <a href="caesar.html">Caesar</a>
+                <a href="vigenere.html">Vigenère</a>
+                <a href="polybius.html" class="active">Polybius</a>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><rect x="4" y="4" width="8" height="8" fill="#000"/></svg>
+    </nav>
+</header>
+<main>
+    <h1>Let's Talk <br><span class="stand-out">Cryptography</span></h1>
+    <hr>
+    <section class="flexible flexible-three">
+        <div>
+            <h2>Polybius Cipher</h2>
+            <p>
+                The <strong>Polybius Square</strong> is a device invented by the ancient Greeks,
+                Cleoxenus and Democleitus, and popularized by the historian and scholar Polybius. The method is used for
+                representing message characters by a smaller set of symbols.
+            </p>
+            <p>
+                There are several encryption methods using the Polybius square. One of them involves placing the alphabet in a 5×5 grid,
+                with I and J sharing a cell,
+                and replacing each letter with its row and column numbers. For example, HELLO becomes 23 15 31 31 34.
+            </p>
+            <p><span class="label">Source: </span><a href="https://en.wikipedia.org/wiki/Polybius_square" target="_blank">WIKIPEDIA</a></p>
+        </div>
+        <img src="img/crypto-grid.png" alt="Cryptography Grid Art" id="pol">
+        <div>
+            <h3>Practice</h3>
+            <p>Using the grid in the image, decode: 11 52 15 43 34 32 15</p>
+            <textarea rows="4" cols="50"></textarea>
+            <p><span class="label" id="answer-label">See Answer: </span><span id="answer">Awesome</span></p>
+        </div>
+    </section>
+</main>
+<footer>
+    <img src="img/logo.jpg" alt="CSUMB Logo" id="logo">
+    <div>
+        <p>&copy; Olga Bradford. All rights reserved.</p>
+        <p>This site is for academic purposes only.</p>
+        <p>CST 336 Internet Programming.</p>
+    </div>
+</footer>
+</body>
+</html>
