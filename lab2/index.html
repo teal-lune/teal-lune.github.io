@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a Number</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Guess the Number</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+            <label for="playerGuess">Enter a Guess:</label>
+            <input type="number" id="playerGuess" size="15">
+            <div>
+                <button id="guessBtn"> Guess </button>
+                <button id="resetBtn"> Reset </button>
+            </div>
+            <div class="container" id="feedback"></div>
+            <div class="container">
+                Previous Guesses:
+                <span id="guesses"></span>
+            </div>
+            <div class="container">
+                Attempts Left:
+                <span id="attempts"></span>
+            </div>
+            <div class="container">
+                Wins:
+                <span id="wins"></span>
+            </div>
+            <div class="container">
+                Losses:
+                <span id="losses"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="img/logo.jpg" alt="CSUMB Logo" id="logo">
+        <div>
+            <p>&copy; Olga Bradford. All rights reserved.</p>
+            <p>This site is for academic purposes only.</p>
+            <p>CST 336 Internet Programming.</p>
+        </div>
+    </footer>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

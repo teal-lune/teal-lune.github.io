@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffffff;
+    background-image: url("../img/numbers-pattern.png");
+    background-size: 500px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Fredoka", sans-serif;
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+header {
+    background-color: #274AB3;
+    background-image: url("../img/professor-yellow-bust.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.7);
+}
+
+header img {
+    display: block;
+    width: 150px;
+}
+
+h1 {
+    color: #C93636;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 100px 0 0 0;
+    line-height: 0.8;
+    text-align: center;
+}
+
+h2 {
+  color: #274AB3;
+  margin-top: 0;
+}
+
+input {
+    border: 3px solid #274AB3;
+    border-radius: 15px;
+    padding: 7px;
+    outline: none;
+    margin: 15px 0;
+}
+
+button {
+    padding: 10px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+    color: #ffffff;
+    
+}
+
+button:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+#guessBtn {
+    background-color: #274AB3;
+}
+
+#resetBtn {
+    background-color: #C93636;
+}
+
+.container {
+    margin-bottom: 8px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+    flex: 1;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 40px auto;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    max-width: 400px;
+    align-self: center;
+}
+
+footer {
+    background-color: #274AB3;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 15px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 1;
+}
+
+#logo {
+    width: 300px;
+}
