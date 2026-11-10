@@ -1,0 +1,25 @@
+h1 {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    display: inline;
+}
+
+object {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.card {
+    margin: 20px;
+}
+
+.form-check-label {
+    margin-left: 8px;
+}
+
+#logo {
+    max-width: 300px;
+}
+
+.hidden {
+    display: none;
+}
